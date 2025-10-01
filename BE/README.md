@@ -115,7 +115,7 @@ docker-compose down
 
 ### Services Available
 
-- **API**: http://localhost:3000
+- **API**: http://localhost:8888
 - **Database**: PostgreSQL on port 5432
 - **Adminer**: http://localhost:8080 (Database management)
 

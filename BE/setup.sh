@@ -29,6 +29,10 @@ npx prisma migrate dev --name init
 echo "🏗️ Building the project..."
 npm run build
 
+# Build the project
+echo "🏗️ Copying env.example to .env..."
+cp .env.example .env
+
 echo ""
 echo "🎉 Setup completed successfully!"
 echo "📚 Available commands:"
